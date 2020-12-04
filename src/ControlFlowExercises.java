@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.util.stream.IntStream;
 
 public class ControlFlowExercises {
@@ -66,20 +67,26 @@ public class ControlFlowExercises {
 //                .forEach(System.out::println);
 
 //        sophies fizzbuzz
-        int i = 0;
-        for(i = 0; i <= 100; i +=1){
-            if(i % 15 == 0){
-                System.out.println("FizzBuzz");
-            } else if(i % 5 == 0){
-                System.out.println("Buzz");
-            } else if (i % 3 == 0){
-                System.out.println("Fizz");
-            } else{
-                System.out.println(i);
-            }
-        }
-
-        Scanner scanner = new
+//        int i = 0;
+//        for(i = 0; i <= 100; i +=1){
+//            if(i % 15 == 0){
+//                System.out.println("FizzBuzz");
+//            } else if(i % 5 == 0){
+//                System.out.println("Buzz");
+//            } else if (i % 3 == 0){
+//                System.out.println("Fizz");
+//            } else{
+//                System.out.println(i);
+//            }
+//        }
+//warm up dec4.
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Welcome to 'PRINT THE VEGETABLE COUNT' app!\n");
+//        System.out.print("How many vegetables do you have? ");
+//        int count = sc.nextInt();
+//        System.out.print("What kind of vegetable? (use a singular noun, e.g. 'carrot' vs. 'carrots'): ");
+//        String veggie = sc.next();
+//        System.out.printf("You have %d %s!\n\n", count, veggie);
 
 
 
