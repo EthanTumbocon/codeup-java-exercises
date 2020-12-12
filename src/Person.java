@@ -1,10 +1,12 @@
+import java.util.Arrays;
+
 public class Person {
     private String name;
-    public Person[] people;
 
     public Person(String name){
         setName(name);
     }
+        public Person(){}
 
         public String getName(){
          return this.name;
@@ -20,10 +22,9 @@ public class Person {
 
 
         public static Person[] addPerson(Person[] people, Person person){
-        for(int index = 0; index < people.length; index++){
-            people[index] =  person;
-        }
-        return people;
+        Person[] temp = Arrays.copyOf(people, people.length + 1);
+        temp[people.length] = person;
+        return temp;
     }
 
     public static void main(String[] args) {
