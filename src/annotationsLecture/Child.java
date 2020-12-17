@@ -7,8 +7,8 @@ public class Child extends Parent {
     }
 
     /**
-     * @deprecated Use newMethod instead {@link #imAMethod()}
-     */
+//     * @deprecated Use newMethod instead {@link #imAMethod()}
+//     */
     @Deprecated
     public void deprecatedMethod(){
         System.out.println("I'm a deprecated method!");

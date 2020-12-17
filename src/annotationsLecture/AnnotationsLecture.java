@@ -12,15 +12,20 @@ public class AnnotationsLecture {
 
         Child child1 = new Child();
 
-        //TODO TOGETHER: Call deprecated method & no comment
-        //TODO TOGETHER: Call deprecated method with comment
-//        child1.sayHello();
-
-
-
-
         //TODO TOGETHER:Call sayHello without @Override
         //TODO TOGETHER: Comment out annotation and change Parent sayHello no sayHelloParent (Notice there is no error!)
+        child1.sayHello();
+
+
+
+        //TODO TOGETHER: Call deprecated method & no comment
+        //TODO TOGETHER: Call deprecated method with comment
+
+    child1.imAMethod();
+
+
+
+
 //        child1.deprecatedMethod();
 
 
@@ -33,7 +38,7 @@ public class AnnotationsLecture {
 
 
     //TODO Together: Use @SuppressWarnings
-//    @SuppressWarnings("deprecation rawtypes unused unchecked")
+    @SuppressWarnings("deprecation rawtypes unused unchecked")
 //    @SuppressWarnings("all")
     public static void doRiskyThings(){
         Child riskyChild = new Child();
