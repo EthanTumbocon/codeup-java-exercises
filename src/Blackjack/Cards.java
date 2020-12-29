@@ -3,11 +3,11 @@ package Blackjack;
 import com.sun.jdi.Value;
 
 public class Cards {
-    public enum value {
+    public enum Value {
          ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING;
 
          public static Value getValue(int index){
-             Value[] value = Value.values();
+             Value[] values = Value.values();
              return values[index];
          }
          public static int getValueLength(){
@@ -26,7 +26,7 @@ public class Cards {
          }
          private Suit suit;
          private Value value;
-         public Card(Suit suit, Value value){
+         public void Card(Suit suit, Value value){
              this.suit = suit;
              this.value = value;
          }
@@ -37,7 +37,7 @@ public class Cards {
              return this.value;
          }
          public String toString(){
-             return this.suit + "_" = this.value;
+             return this.suit + "_" + this.value;
          }
     }
 }
