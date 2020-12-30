@@ -1,10 +1,10 @@
 package JupiterMart;
 
-public abstract class products {
+public abstract class Product {
     protected int ID;
     protected double price;
 
-    public products(int ID, double price){
+    public Product(int ID, double price){
         this.ID = ID;
         this.price = price;
     }

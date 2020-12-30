@@ -1,8 +1,13 @@
 package JupiterMart;
 
-public class CellPhone extends products {
+public class CellPhone extends Product {
     private int screenSize;
     private String OS;
+    public CellPhone(int ID, double price, int screenSize, String OS) {
+        super(ID, price);
+        this.screenSize = screenSize;
+        this.OS = OS;
+    }
 
     public int getScreenSize() {
         return screenSize;
@@ -18,9 +23,5 @@ public class CellPhone extends products {
 
     public void setOS(String OS) {
         this.OS = OS;
-    }
-
-    public CellPhone(int ID, double price) {
-        super(ID, price);
     }
 }
