@@ -1,3 +1,4 @@
+package JupiterMart;
 import java.util.Arrays;
 
 public class Person {
@@ -21,11 +22,11 @@ public class Person {
         }
 
 
-        public static Person[] addPerson(Person[] people, Person person){
-        Person[] temp = Arrays.copyOf(people, people.length + 1);
-        temp[people.length] = person;
-        return temp;
-    }
+//        public static Person[] addPerson(Person[] people, Person person){
+//        Person[] temp = Arrays.copyOf(people, people.length + 1);
+//        temp[people.length] = person;
+//        return temp;
+//    }
 
     public static void main(String[] args) {
         Person person1 = new Person("Ethan");
