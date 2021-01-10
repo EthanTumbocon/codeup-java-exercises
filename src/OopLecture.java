@@ -1,4 +1,3 @@
-package oopLecture;
 
 
 public class OopLecture {

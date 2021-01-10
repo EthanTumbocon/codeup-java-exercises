@@ -9,7 +9,10 @@ public class Person {
     }
         public Person(){}
 
-        public String getName(){
+//    public static Person[] addPerson(Person[] people, Person foo) {
+//    }
+
+    public String getName(){
          return this.name;
         }
 

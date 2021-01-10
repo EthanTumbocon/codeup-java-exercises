@@ -68,7 +68,7 @@ public class ExceptionsLec {
 
 
         try {
-//            throw new Exception("Something went wrong"); // Generally wrong - last catch
+            throw new Exception("Something went wrong"); // Generally wrong - last catch
 
 //            throw new NullPointerException("Something went wrong message"); // Something went wrong message
 

@@ -2,7 +2,7 @@ package Blackjack;
 
 import com.sun.jdi.Value;
 
-public class Cards {
+public class Card {
     public enum Value {
          ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING;
 
@@ -20,9 +20,6 @@ public class Cards {
                  Suit[] suits = Suit.values();
                  return suits[index];
              }
-             public static int getSuitLength(){
-                 return Suit.values().length;
-             }
          }
          private Suit suit;
          private Value value;
@@ -30,7 +27,7 @@ public class Cards {
              this.suit = suit;
              this.value = value;
          }
-         public Suit getSuit(){
+         public Suit getSuits(){
              return this.suit;
          }
          public Value getValue(){
@@ -39,5 +36,13 @@ public class Cards {
          public String toString(){
              return this.suit + "_" + this.value;
          }
+    }
+
+    public static class Suit {
+        public static int getSuitLength() {
+            return Value.Suit.values().length;
+        }
+
+
     }
 }
