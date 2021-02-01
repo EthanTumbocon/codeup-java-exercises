@@ -1,6 +1,6 @@
 //package CarDealership;
 //
-//import JupiterMart.Person;
+//import Person;
 //
 //public class CarDealership extends Person {
 //    private  int creditRating;

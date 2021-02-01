@@ -1,6 +1,3 @@
-package JupiterMart;
-import java.util.Arrays;
-
 public class Person {
     private String name;
 
